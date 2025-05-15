@@ -1,0 +1,81 @@
+/* Estilos específicos para a página de promoções */
+.promocoes {
+    padding: 2rem;
+}
+
+.produto.destaque {
+    position: relative;
+}
+
+.destaque-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.preco-promocao {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.newsletter {
+    background-color: #2c3e50;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 1.5rem;
+}
+
+.newsletter form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter .form-group {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #f39c12;
+}
+
+.newsletter p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
